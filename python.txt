@@ -1,0 +1,31 @@
+Atm_card="card"
+pin=2119
+Money=10000
+Temp=0
+
+for outer in range(1,2):#12
+#outerforloopyouaretheperson
+    print("You are in front of atm machine")
+    print("insert you card")
+    print("enter your pin")
+
+#if
+if (Atm_card=="card")&(pin==2119):#true
+
+#Nestedif
+    if outer==1:#2==1False
+        #ATMMachine
+         while Temp<=Money:#0<5000true
+            print("count",Temp,"TotalAmount",Money)
+            Temp=Temp+500#0100200300400
+            print("take your money",Money,"rupee")
+
+    else:
+        print("only one attempt is possible")
+elif(Atm_card == "card") | (pin == 2119):
+        print("any one value is wrong")
+
+else:
+        print("both values are wrong")
+
+print("Thankyou for use")
